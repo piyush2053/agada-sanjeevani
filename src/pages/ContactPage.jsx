@@ -5,23 +5,23 @@ export default function ContactPage() {
   return (
     <div className="contact-page">
       <div className="contact-header">
-        <BiText as="h1" en="Contact & Support" hi="संपर्क और सहायता" />
+        <BiText as="h1" en="Contact & Support" />
       </div>
 
       <div className="contact-container">
         <div className="contact-card">
           <div className="contact-item">
             <div className="contact-label">
-              <BiText en="Email" hi="ईमेल" />
+              <BiText en="Email" />
             </div>
             <div className="contact-value">
-              <a href="mailto:agadasanjeevani@gmail.com">agadasanjeevani@gmail.com</a>
+              <a href="mailto:agadasanjeevini2026@gmail.com">agadasanjeevini2026@gmail.com</a>
             </div>
           </div>
 
           <div className="contact-item">
             <div className="contact-label">
-              <BiText en="Developer" hi="डेवलपर" />
+              <BiText en="Developer" />
             </div>
             <div className="contact-value">
               Nearwe Labs
@@ -30,19 +30,18 @@ export default function ContactPage() {
 
           <div className="contact-item">
             <div className="contact-label">
-              <BiText en="App Type" hi="ऐप प्रकार" />
+              <BiText en="App Type" />
             </div>
             <div className="contact-value">
               <BiText 
                 en="Free, Offline Android Application"
-                hi="निःशुल्क, ऑफलाइन Android ऐप्लिकेशन"
               />
             </div>
           </div>
 
           <div className="contact-item">
             <div className="contact-label">
-              <BiText en="Platform" hi="प्लेटफ़ॉर्म" />
+              <BiText en="Platform" />
             </div>
             <div className="contact-value">
               Google Play Store
@@ -53,3 +52,4 @@ export default function ContactPage() {
     </div>
   );
 }
+

@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="footer-section">
           <h3>Contact</h3>
           <p>
-            <strong>Email:</strong> agadasanjeevani@gmail.com
+            <strong>Email:</strong> agadasanjeevini2026@gmail.com
           </p>
           <p>
             <strong>Developer:</strong> Nearwe Labs
@@ -46,3 +46,4 @@ export default function Footer() {
     </footer>
   );
 }
+

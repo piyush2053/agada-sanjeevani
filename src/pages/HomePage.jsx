@@ -9,24 +9,22 @@ export default function HomePage() {
       <section className="hero">
         <div className="dot-grid-pattern"></div>
         <div className="hero-content">
-          <BiText as="h1" en="Agada Sanjeevani" hi="अगद संजीवनी" />
+          <BiText as="h1" en="Agada Sanjeevani" />
           
           <div className="hero-subtitle">
             <BiText 
               en="Expert Ayurvedic Toxicology Diagnosis — Offline & Private"
-              hi="विशेषज्ञ आयुर्वेदिक विषविज्ञान निदान — ऑफलाइन और निजी"
             />
           </div>
 
           <div className="hero-description">
             <BiText 
               en="A trusted clinical tool for doctors, students, and Ayurvedic practitioners. Entirely offline. No data collected. No internet required."
-              hi="डॉक्टरों, छात्रों और आयुर्वेदिक चिकित्सकों के लिए एक विश्वसनीय नैदानिक उपकरण। पूर्णतः ऑफलाइन। कोई डेटा संग्रह नहीं।"
             />
           </div>
 
           <Link to="/about" className="hero-cta btn-primary">
-            <BiText en="Learn More" hi="अधिक जानें" />
+            <BiText en="Learn More" />
           </Link>
         </div>
       </section>
@@ -35,34 +33,30 @@ export default function HomePage() {
       <section className="features-section">
         <div className="features-grid">
           <div className="feature-card">
-            <BiText as="h3" en="Offline First" hi="पहले ऑफलाइन" />
+            <BiText as="h3" en="Offline First" />
             <BiText 
               en="Works without internet in any location"
-              hi="किसी भी स्थान पर इंटरनेट के बिना काम करता है"
             />
           </div>
 
           <div className="feature-card">
-            <BiText as="h3" en="No Data Collection" hi="कोई डेटा संग्रह नहीं" />
+            <BiText as="h3" en="No Data Collection" />
             <BiText 
               en="Zero personal data stored or transmitted"
-              hi="कोई व्यक्तिगत डेटा संग्रहीत या प्रेषित नहीं"
             />
           </div>
 
           <div className="feature-card">
-            <BiText as="h3" en="Ayurvedic Medicine Database" hi="आयुर्वेदिक औषधि डेटाबेस" />
+            <BiText as="h3" en="Ayurvedic Medicine Database" />
             <BiText 
               en="Classical formulations & remedies"
-              hi="शास्त्रीय औषधि फॉर्मूलेशन और उपचार"
             />
           </div>
 
           <div className="feature-card">
-            <BiText as="h3" en="Clinical Assessment Tools" hi="नैदानिक मूल्यांकन उपकरण" />
+            <BiText as="h3" en="Clinical Assessment Tools" />
             <BiText 
               en="Structured exposure & symptom evaluation"
-              hi="संरचित एक्सपोज़र और लक्षण मूल्यांकन"
             />
           </div>
         </div>
@@ -72,19 +66,20 @@ export default function HomePage() {
       <section className="compliance-section">
         <div className="compliance-badges">
           <div className="badge">
-            <BiText en="Privacy Safe" hi="गोपनीयता सुरक्षित" />
+            <BiText en="Privacy Safe" />
           </div>
           <div className="badge">
-            <BiText en="Child Safe" hi="बाल सुरक्षित" />
+            <BiText en="Child Safe" />
           </div>
           <div className="badge">
-            <BiText en="No Ads" hi="कोई विज्ञापन नहीं" />
+            <BiText en="No Ads" />
           </div>
           <div className="badge">
-            <BiText en="No Tracking" hi="कोई ट्रैकिंग नहीं" />
+            <BiText en="No Tracking" />
           </div>
         </div>
       </section>
     </div>
   );
 }
+
