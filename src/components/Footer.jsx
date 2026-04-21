@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-section">
           <h3>About App</h3>
           <p>
-            Agada Sanjeevani is an offline Ayurvedic toxicology reference tool for medical professionals.
+            Agada Sanjeevini is an offline Ayurvedic toxicology reference tool for medical professionals.
           </p>
         </div>
 
@@ -37,9 +37,9 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <div className="footer-copyright">
-          <p>© 2025 Agada Sanjeevani — Developed by Nearwe Labs. All rights reserved.</p>
+          <p>© 2025 Agada Sanjeevini — Developed by Nearwe Labs. All rights reserved.</p>
           <p style={{ fontSize: '0.85rem', marginTop: '0.5rem', color: 'var(--text-secondary)' }}>
-            विकसित: Nearwe Labs | 2025
+            Nearwe Labs | 2025
           </p>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function ChildSafety() {
       <div className="policy-section">
         <BiText as="h2" en="Not Directed at Children" />
         <BiText 
-          en="Agada Sanjeevani is a professional Ayurvedic toxicology reference tool intended for medical doctors, practitioners, students, and adult caregivers. It is not designed for or marketed to children under 13."
+          en="Agada Sanjeevini is a professional Ayurvedic toxicology reference tool intended for medical doctors, practitioners, students, and adult caregivers. It is not designed for or marketed to children under 13."
         />
       </div>
 

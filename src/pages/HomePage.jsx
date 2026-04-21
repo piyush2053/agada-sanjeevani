@@ -9,7 +9,7 @@ export default function HomePage() {
       <section className="hero">
         <div className="dot-grid-pattern"></div>
         <div className="hero-content">
-          <BiText as="h1" en="Agada Sanjeevani" />
+          <BiText as="h1" en="Agada Sanjeevini" />
           
           <div className="hero-subtitle">
             <BiText 

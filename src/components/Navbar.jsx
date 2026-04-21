@@ -14,7 +14,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={() => setIsOpen(false)}>
-          <div className="navbar-logo-text">Agada Sanjeevani</div>
+          <div className="navbar-logo-text">Agada Sanjeevini</div>
           <div className="navbar-logo-tagline">by Nearwe Labs</div>
         </Link>
 

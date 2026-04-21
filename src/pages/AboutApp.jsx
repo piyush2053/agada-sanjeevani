@@ -5,7 +5,7 @@ export default function AboutApp() {
   return (
     <div className="about-page">
       <div className="about-header">
-        <BiText as="h1" en="About Agada Sanjeevani" />
+        <BiText as="h1" en="About Agada Sanjeevini" />
       </div>
 
       <div className="about-section">
