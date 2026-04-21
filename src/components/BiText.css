@@ -11,14 +11,21 @@
 }
 
 h1 .bi-text-en,
-h2 .bi-text-en,
+h2 .bi-text-en {
+  font-size: 1em;
+  font-weight: 700;
+  font-family: var(--font-body);
+}
+
 h3 .bi-text-en {
   font-size: 1em;
   font-weight: 700;
+  font-family: var(--font-heading);
 }
 
 h1 .bi-text-hi,
 h2 .bi-text-hi,
 h3 .bi-text-hi {
   font-size: 0.75em;
+  font-family: var(--font-body);
 }
