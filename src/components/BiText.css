@@ -1,0 +1,24 @@
+.bi-text-en {
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.bi-text-hi {
+  color: var(--text-secondary);
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+h1 .bi-text-en,
+h2 .bi-text-en,
+h3 .bi-text-en {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+h1 .bi-text-hi,
+h2 .bi-text-hi,
+h3 .bi-text-hi {
+  font-size: 0.75em;
+}
