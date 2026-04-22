@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import BiText from './BiText';
+import logo from '../assets/logo.png';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -14,8 +15,11 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={() => setIsOpen(false)}>
-          <div className="navbar-logo-text">Agada Sanjeevini</div>
-          <div className="navbar-logo-tagline">by Nearwe Labs</div>
+          <img src={logo} alt="Agada Sanjeevini Logo" className="navbar-logo-img" />
+          <div className="navbar-logo-content">
+            <div className="navbar-logo-text">Agada Sanjeevini</div>
+            <div className="navbar-logo-tagline">by Nearwe Labs</div>
+          </div>
         </Link>
 
         <button
