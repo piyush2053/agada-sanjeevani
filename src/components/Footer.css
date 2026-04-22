@@ -1,6 +1,6 @@
 .footer {
   background-color: var(--bg-card);
-  border-top: 1px solid rgba(255, 107, 71, 0.2);
+  border-top: 1px solid rgba(35, 100, 56, 0.12);
   padding: 3rem 2rem 2rem;
   margin-top: 4rem;
 }
@@ -43,7 +43,7 @@
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 107, 71, 0.2);
+  border-top: 1px solid rgba(35, 100, 56, 0.12);
   padding-top: 2rem;
   text-align: center;
 }

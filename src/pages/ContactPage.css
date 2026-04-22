@@ -9,7 +9,7 @@
   text-align: center;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 2px solid rgba(255, 107, 71, 0.2);
+  border-bottom: 2px solid rgba(35, 100, 56, 0.12);
 }
 
 .contact-header h1 {
@@ -26,9 +26,9 @@
 .contact-card {
   background-color: var(--bg-card);
   padding: 3rem;
-  border-radius: 8px;
-  border: 2px solid rgba(255, 107, 71, 0.3);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  border: 2px solid rgba(35, 100, 56, 0.16);
+  box-shadow: 0 12px 35px rgba(35, 100, 56, 0.08);
   max-width: 500px;
   width: 100%;
 }
@@ -36,7 +36,7 @@
 .contact-item {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(255, 107, 71, 0.1);
+  border-bottom: 1px solid rgba(35, 100, 56, 0.1);
 }
 
 .contact-item:last-child {

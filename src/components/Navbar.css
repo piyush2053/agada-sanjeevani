@@ -1,6 +1,6 @@
 .navbar {
-  background-color: var(--bg-primary);
-  border-bottom: 1px solid rgba(255, 107, 71, 0.2);
+  background-color: var(--bg-card);
+  border-bottom: 1px solid rgba(35, 100, 56, 0.12);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -100,7 +100,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
-    border-bottom: 1px solid rgba(255, 107, 71, 0.2);
+    border-bottom: 1px solid rgba(35, 100, 56, 0.12);
   }
 
   .nav-links.active {

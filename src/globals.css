@@ -8,12 +8,14 @@
 
 :root {
   /* Colors */
-  --bg-primary: #0D0D1A;
-  --bg-card: #1A1A2E;
-  --accent-primary: #FF6B47;
-  --accent-secondary: #7C6FF7;
-  --text-primary: #F5F0E8;
-  --text-secondary: #A09080;
+  --bg-primary: #F3F6F1;
+  --bg-card: #FFFFFF;
+  --accent-primary: #236438;
+  --accent-secondary: #A58E40;
+  --text-primary: #102028;
+  --text-secondary: #4A5A50;
+  --text-h: #102028;
+  --code-bg: #E6EFE7;
   
   /* Fonts */
   --font-body: 'Inter', sans-serif;
@@ -59,9 +61,9 @@ button {
 }
 
 .btn-primary:hover {
-  background-color: #E55A37;
+  background-color: #1C5730;
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(255, 107, 71, 0.3);
+  box-shadow: 0 8px 18px rgba(35, 100, 56, 0.24);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,7 +80,7 @@ p {
 /* Dot grid pattern */
 .dot-pattern {
   background-image: 
-    radial-gradient(circle, rgba(255, 107, 71, 0.1) 1px, transparent 1px);
+    radial-gradient(circle, rgba(35, 100, 56, 0.12) 1px, transparent 1px);
   background-size: 30px 30px;
 }
 
