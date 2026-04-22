@@ -54,6 +54,7 @@ button {
   background-color: var(--accent-primary);
   color: white;
   font-weight: 600;
+  border-radius: 15px;
   padding: 12px 28px;
 }
 

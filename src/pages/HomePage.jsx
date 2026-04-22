@@ -10,54 +10,79 @@ export default function HomePage() {
         <div className="dot-grid-pattern"></div>
         <div className="hero-content">
           <BiText as="h1" en="Agada Sanjeevini" />
-          
+
           <div className="hero-subtitle">
-            <BiText 
-              en="Expert Ayurvedic Toxicology Diagnosis — Offline & Private"
-            />
+            <BiText en="Expert Ayurvedic Toxicology Diagnosis — Offline & Private" />
           </div>
 
           <div className="hero-description">
-            <BiText 
-              en="A trusted clinical tool for doctors, students, and Ayurvedic practitioners. Entirely offline. No data collected. No internet required."
-            />
+            <BiText en="A trusted clinical tool for doctors, students, and Ayurvedic practitioners. Entirely offline. No data collected. No internet required." />
+          </div>
+  <section className="download-section">
+        <div className="download-content">
+
+          <div className="download-options">
+            {/* QR Code */}
+            <div className="qr-container">
+              <a
+                href="https://github.com/piyush2053/agada-releases/releases/download/Agada/AgadaSanjeevini.apk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://github.com/piyush2053/agada-releases/releases/download/Agada/AgadaSanjeevini.apk"
+                  alt="QR Code to download AgadaSanjeevini APK"
+                  className="qr-code"
+                />
+              </a>
+              <BiText en="Scan or tap the QR code to download" />
+            </div>
+
+            {/* Download Button */}
+            <a
+              href="https://github.com/piyush2053/agada-releases/releases/download/Agada/AgadaSanjeevini.apk"
+              className="btn-primary download-btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="download-icon">⬇</span>
+              <BiText en="Download APK" />
+            </a>
           </div>
 
+          <p className="download-note">
+            <BiText en="Android 6.0+ required. Enable 'Install from unknown sources' in settings." />
+          </p>
+        </div>
+      </section>
           <Link to="/about" className="hero-cta btn-primary">
             <BiText en="Learn More" />
           </Link>
         </div>
       </section>
+    
 
       {/* Features Section */}
       <section className="features-section">
         <div className="features-grid">
           <div className="feature-card">
             <BiText as="h3" en="Offline First" />
-            <BiText 
-              en="Works without internet in any location"
-            />
+            <BiText en="Works without internet in any location" />
           </div>
 
           <div className="feature-card">
             <BiText as="h3" en="No Data Collection" />
-            <BiText 
-              en="Zero personal data stored or transmitted"
-            />
+            <BiText en="Zero personal data stored or transmitted" />
           </div>
 
           <div className="feature-card">
             <BiText as="h3" en="Ayurvedic Medicine Database" />
-            <BiText 
-              en="Classical formulations & remedies"
-            />
+            <BiText en="Classical formulations & remedies" />
           </div>
 
           <div className="feature-card">
             <BiText as="h3" en="Clinical Assessment Tools" />
-            <BiText 
-              en="Structured exposure & symptom evaluation"
-            />
+            <BiText en="Structured exposure & symptom evaluation" />
           </div>
         </div>
       </section>
@@ -82,4 +107,3 @@ export default function HomePage() {
     </div>
   );
 }
-
