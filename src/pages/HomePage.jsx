@@ -9,54 +9,54 @@ export default function HomePage() {
       <section className="hero">
         <div className="dot-grid-pattern"></div>
         <div className="hero-content">
-          <BiText as="h1" en="Agada Sanjeevini" />
+          <div className="hero-main">
+            <div className="hero-text">
+              <BiText as="h1" en="Agada Sanjeevini" />
 
-          <div className="hero-subtitle">
-            <BiText en="Expert Ayurvedic Toxicology Diagnosis — Offline & Private" />
-          </div>
+              <div className="hero-subtitle">
+                <BiText en="Expert Ayurvedic Toxicology Diagnosis — Offline & Private" />
+              </div>
 
-          <div className="hero-description">
-            <BiText en="A trusted clinical tool for doctors, students, and Ayurvedic practitioners. Entirely offline. No data collected. No internet required." />
-          </div>
-  <section className="download-section">
-        <div className="download-content">
+              <div className="hero-description">
+                <BiText en="A trusted clinical tool for doctors, students, and Ayurvedic practitioners. Entirely offline. No data collected. No internet required." />
+              </div>
+                 <Link to="/about" className="hero-cta btn-primary">
+            <BiText en="Learn More" />
+          </Link>
+            </div>
 
-          <div className="download-options">
-            {/* QR Code */}
-            <div className="qr-container">
+            <div className="hero-download">
+              {/* QR Code */}
+              <div className="qr-container">
+                <a
+                  href="https://github.com/piyush2053/agada-releases/releases/download/Agada/AgadaSanjeevini.apk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://github.com/piyush2053/agada-releases/releases/download/Agada/AgadaSanjeevini.apk"
+                    alt="QR Code to download AgadaSanjeevini APK"
+                    className="qr-code"
+                  />
+                </a>
+                <BiText en="Scan or tap the QR code to download" />
+              </div>
+
+              {/* Download Button */}
               <a
                 href="https://github.com/piyush2053/agada-releases/releases/download/Agada/AgadaSanjeevini.apk"
+                className="btn-primary download-btn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://github.com/piyush2053/agada-releases/releases/download/Agada/AgadaSanjeevini.apk"
-                  alt="QR Code to download AgadaSanjeevini APK"
-                  className="qr-code"
-                />
+                <BiText en="Download App" />
               </a>
-              <BiText en="Scan or tap the QR code to download" />
+
+              <p className="download-note">
+                <BiText en="Android 6.0+ required. Enable 'Install from unknown sources' in settings." />
+              </p>
             </div>
-
-            {/* Download Button */}
-            <a
-              href="https://github.com/piyush2053/agada-releases/releases/download/Agada/AgadaSanjeevini.apk"
-              className="btn-primary download-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <BiText en="Download App" />
-            </a>
           </div>
-
-          <p className="download-note">
-            <BiText en="Android 6.0+ required. Enable 'Install from unknown sources' in settings." />
-          </p>
-        </div>
-      </section>
-          <Link to="/about" className="hero-cta btn-primary">
-            <BiText en="Learn More" />
-          </Link>
         </div>
       </section>
     
